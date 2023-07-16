@@ -1,0 +1,136 @@
+.about-main {
+	padding:100px 0px ;
+}
+.container {
+	padding: 0px 10px;
+}
+.about-main__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.about-text {
+	font-size: 18px;
+	line-height: 160%;
+	text-align: center;
+	color: #000000;
+}
+.about-main__text {
+	max-width: 582px;
+	padding-top: 36px;
+	padding-bottom: 86px;
+}
+.about-main__image {
+	overflow: hidden;
+}
+.about-main__image img {
+	width: 100%;
+	transition: all 0.3s ease 0s;
+}
+.about-main__image img:hover {
+	transform: scale(1.05);
+}
+
+.achievement {
+	padding-bottom: 100px;
+}
+.achievement__text {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 170%;
+	color: #000000;
+	padding-top: 20px;
+	padding-bottom: 56px;
+	max-width: 738px;
+}
+.achievement__image {
+	overflow: hidden;
+}
+.achievement__image img {
+	width: 100%;
+	transition: all 0.3s ease 0s;
+}
+.achievement__image img:hover {
+	transform: scale(1.05);
+}
+.achievement__content {
+	display: flex;
+	gap: 59px;
+}
+.about-column {
+	position: static;
+}
+@media (max-width: 1170px){
+	.achievement__content {
+		flex-direction: column;
+	}
+}
+@media (max-width: 670px){
+	.achievement__text {
+		font-size: 30px;
+	}
+}
+
+/*           Choose             */
+
+.choose {
+	padding-bottom: 100px;
+}
+.choose__title {
+	padding: 0px 0px 25px 0px;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 170%;
+	color: #333333;
+}
+.choose__text {
+	padding-bottom: 40px;
+	font-size: 18px;
+	line-height: 160%;
+	color: #9C9C9C;
+	max-width: 471px;
+}
+.choose__columns {
+	display: flex;
+	gap: 18px;
+}
+.choose__column {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+}
+.choose__column:hover {
+	box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.4);
+}
+.column-choose__elips {
+	width: 63px;
+	height: 63px;
+	background-color: #D9D9D9;
+	border-radius: 50%;
+}
+.column-choose__content {
+	padding: 20px 27px 22px 27px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 20px;
+}
+.column-choose__title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 140%;
+	color: #333333;
+}
+.column-choose__text {
+	font-size: 18px;
+	line-height: 160%;
+	text-align: center;
+	color: #9C9C9C;
+}
+@media (max-width: 700px){
+	.choose__columns {
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,21 @@
+.columns-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.revers-columns {
+	flex-direction: row-reverse;
+}
+@media (max-width: 1150px){
+	.revers-columns {
+		display: flex;
+		flex-direction: column;
+	}
+}
+.revers-card {
+	top: 26px;
+	left: 121px;
+}
+.portfolio {
+	padding-bottom: 120px;
+}
