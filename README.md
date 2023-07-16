@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Create React App (Dananz Website)
+<img width="975" alt="Снимок экрана 2023-07-16 в 09 28 26" src="https://github.com/filippovskii09/Donanz/assets/118079918/9fcc3329-1522-4f3d-bb5b-b8ed863d1085">
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
